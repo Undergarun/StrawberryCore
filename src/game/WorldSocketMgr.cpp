@@ -43,6 +43,7 @@
 #include "Common.h"
 #include "Config/Config.h"
 #include "Database/DatabaseEnv.h"
+#include "Opcodes.h"
 #include "WorldSocket.h"
 
 /**

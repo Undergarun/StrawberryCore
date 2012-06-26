@@ -5,17 +5,20 @@
 #include "Config/Config.h"
 #include "Database/DatabaseEnv.h"
 #include "DBCStores.h"
+#include "GossipDef.h"
 #include "ObjectMgr.h"
 #include "ProgressBar.h"
 #include "Loader/ScriptHandler.h"
 #include "Texts/ScriptTexts.h"
 #include "ScriptMgr.h"
+#include "SpellAuras.h"
+#include "Policies/SingletonImp.h"
 
 typedef std::vector<Script*> SDScriptVec;
 int num_sc_scripts;
 SDScriptVec m_scripts;
 
-INSTANTIATE_SINGLETON_1(ScriptMgr);
+INSTANTIATE_SINGLETON_1( ScriptMgr );
 
 void FillSpellSummary();
 

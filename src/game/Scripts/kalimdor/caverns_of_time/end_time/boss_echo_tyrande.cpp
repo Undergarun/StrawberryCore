@@ -14,8 +14,9 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include "instance_end_time.h"
 #include "pchdef.h"
+#include "instance_end_time.h"
+#include "../ScriptBase/AI/escort_ai.h"
 
 // UPDATE `creature_template` SET ScriptName='npc_boss_echo_tyrande' WHERE `entry`=54544;
 

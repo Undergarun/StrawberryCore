@@ -29,6 +29,7 @@
 #include <ace/Dev_Poll_Reactor.h>
 #include <ace/Guard_T.h>
 #include <ace/Atomic_Op.h>
+#include <ace/Singleton.h>
 #include <ace/os_include/arpa/os_inet.h>
 #include <ace/os_include/netinet/os_tcp.h>
 #include <ace/os_include/sys/os_types.h>

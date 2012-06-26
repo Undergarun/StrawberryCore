@@ -15,8 +15,9 @@
  */
 
 // Includes
-#include "instance_end_time.h"
 #include "pchdef.h"
+#include "instance_end_time.h"
+#include "../ScriptBase/AI/escort_ai.h"
 
 // UPDATE `creature_template` SET ScriptName='npc_boss_echo_jaina' WHERE `entry`=54445;
 

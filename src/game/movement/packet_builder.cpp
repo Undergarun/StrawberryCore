@@ -19,6 +19,7 @@
 
 #include "packet_builder.h"
 #include "MoveSpline.h"
+#include "../Creature.h"
 #include "../WorldPacket.h"
 
 namespace Movement
